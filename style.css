@@ -1,0 +1,126 @@
+/* GLOBAL */
+.header {
+ 	background-color: #FFFFFF;
+ 	padding: 40px;
+ }
+
+.work {
+ 	background-color:#F8F4EE;
+ 	padding: 40px;
+ }
+
+.portrait {
+	 max-width:100%;
+	 display: block;
+	 margin-top: 20px;
+}
+
+
+/* TYPE */
+	h1, h2 {
+		font-family: 'Work Sans', sans-serif;
+	}
+
+	h1 {
+		font-size: 80px;
+		line-height: 82px;
+		margin: -3px;
+	}
+
+	h2 {
+		font-size: 30px;
+		margin-bottom: -10px;
+		color: #1999A7;
+	}
+
+	.intro-text, ul {
+		font-family:'Roboto Slab', serif;
+		font-weight: 400;
+		font-size: 19px;
+		line-height:25px;
+	}
+
+	ul {
+		 list-style-type: none;
+		 list-style-position: inside; 
+		 padding-left: 0;
+	}
+
+	li {
+		padding-top: 15px;
+	}
+
+/* LINKS */
+.contact-link, .contact-link:visited {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 16px;
+	line-height:24px;
+	color: #1999A7;
+	text-decoration: none;
+}
+.contact-link:hover {
+	text-decoration: none;
+  	transition: 0.4s; 
+  	font-color: #1999A7;
+  	box-shadow: 0 -0.3em 0 #1999A7 inset;
+}
+
+.work-link, .work-link:visited {
+	font-weight:800;
+	color: black;
+	text-decoration: none;
+}
+
+.work-link:hover {
+	text-decoration: none;
+  	transition: 0.4s; 
+  	font-color: #1999A7;
+  	box-shadow: 0 -0.3em 0 #1999A7 inset;
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 800px) {
+
+	.header {
+ 	padding-left: 80px;
+ }
+
+.work {
+ 	padding-left: 80px;
+ }
+
+
+	.header-cols {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	}
+
+	.header-col-right {
+	margin-left: 80px;
+	margin-top: 100px;
+	}
+	
+	.work-cols {
+	display: flex;
+	}
+
+	.work-col-left {
+	width: 40%
+	}
+
+	.work-col-right {
+	width: 60%;
+	}
+
+	.portrait {
+		max-width: 400px;
+	}
+}
+
+
+
+
+
