@@ -81,7 +81,7 @@
 
 /* DESKTOP */
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
 
 	.header {
  	padding-left: 80px;
@@ -99,7 +99,7 @@
 	}
 
 	.header-col-right {
-	margin-left: 80px;
+	margin-left: 40px;
 	margin-top: 100px;
 	}
 	
@@ -116,7 +116,7 @@
 	}
 
 	.portrait {
-		max-width: 400px;
+		max-width: 350px;
 	}
 }
 
